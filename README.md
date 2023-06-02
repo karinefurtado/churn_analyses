@@ -33,10 +33,10 @@ Com o código, foram gerados 4 gráficos, que são os mostrados abaixo.
 
 O primeiro gráfico mostra o total de cancelamentos em relação ao canal de marketing que converteu a assinatura:
 
-![Marketing](marketing.JPG)
+![Marketing](marketing.png)
 
 O segundo gráfico mostra o total de cancelamentos em relação a cada estado.
-![State](por_estado.JPG)
+![State](por_estado.png)
 
 O terceiro gráfico mostra a relação de status de cada mês do ano.
 
