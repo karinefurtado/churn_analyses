@@ -29,52 +29,48 @@
 
 ## Gráficos 
 
-Com o código, foram gerados 4 gráficos, em formato de histogramas, comparando a coluna de "Churn" com as outras da base de dados. Tais gráficos podem ser encontrados dentro da pasta "Gráficos", mas abaixo estão três exemplos, referentes às colunas de "Casado", "TipoContrato" e "MesesComoCliente", respectivamente. 
+Com o código, foram gerados 4 gráficos, que são os mostrados abaixo.
 
-Em Azul, temos as pessoas que não continuam com os serviços e, em laranja, as que cancelaram. No eixo $y$ está escrito "count" o que representa a quantidade de pessoas.
+O primeiro gráfico mostra o total de cancelamentos em relação ao canal de marketing que converteu a assinatura:
 
-![Casado](Gráficos/Casado.png)
+![Marketing](Gráficos/marketing.png)
 
-![TipoContrato](Gráficos/TipoContrato.png)
+O segundo gráfico mostra o total de cancelamentos em relação a cada estado.
+![State](Gráficos/por_estado.png)
 
-![MesesComoCliente](Gráficos/MesesComoCliente.png)
+O terceiro gráfico mostra a relação de status de cada mês do ano.
+
+![Status](Gráficos/relacao_status.png)
+
+O quarto gráfico mostra o cancelamento em cada mês.
+![Cancelamentos Totais](Gráficos/total_cancelamentos.png)
 
 ## Conclusões
 
-A partir da análise dos gráficos, podemos gerar algumas hipóteses interessantes, mas algumas delas dependem de ser testadas. Outras são suficientemente claras, supondo que a base de dados é representativa. Com isso, sugerimos novas práticas para a empresa conseguir aumentar a fidelidade dos clientes, direcionar investigações, bem como deixar os serviços mais atrativos. 
+Com base na análise dos gráficos e nas tendências observadas em empresas de assinaturas de serviços, podemos sugerir estratégias para aumentar a fidelidade dos clientes e tornar os serviços mais atrativos. Uma abordagem eficaz pode ser o uso de promoções e planos personalizados para direcionar os clientes para métodos que incentivem sua fidelização.
 
-Por exemplo, pode-se usar promoções e planos para direcionar o cliente para métodos que tendem a fidelizá-lo, o que acaba sendo bom para o cliente e para a empresa. Os resultados em nossa análise fazem muito sentido com o que é observado nas grandes empresas de assinaturas de serviços, como as de telecomunicações e streaming.
+Essas estratégias alinham os interesses dos clientes e da empresa, criando um ambiente favorável para o aumento da satisfação e retenção dos clientes. Empresas de diferentes setores, como telecomunicações e streaming, têm obtido sucesso ao adotar essa abordagem.
 
-$\phantom{a}$
+A implementação de promoções específicas, como descontos exclusivos para clientes fiéis, incentivos para adesão a planos de longo prazo ou benefícios extras para clientes engajados, pode ser uma maneira efetiva de encorajar a fidelidade do cliente. Essas ações podem ser combinadas com análises contínuas dos dados do cliente para segmentar e personalizar as ofertas, atendendo às necessidades e preferências individuais.
 
-### <b> Sobre as informações pessoais </b>
+## Insights
 
-Nesse tópico, vemos que ter família é um ponto relevante, pois as pessoas casadas e com dependentes tendem a manter os serviços. Outras informações, como gênero e se a pessoa é aposentada, não deram resultados significativos.
+### <b> Sobre o canal de marketing que converteu a assinatura </b>
 
-**Sugestão:** Pode-se disponibilizar serviços com planos familiares, oferecendo mais serviços por preços melhores, como uma linha adicional ou o serviço de segurança online, por exemplo. Planos familiares são usados por inúmeras empresas grandes, como Netflix e Spotify. 
+**Aprendizados:** Nesse tópico, pode-se observar que a maioria das assinaturas são convertidas pela procura do próprio cliente.
 
-$\phantom{a}$
+**Próximos Passos:** A análise mostra que a procura orgânica é um canal eficaz para atrair clientes fiéis. Portanto, é importante investir em estratégias de marketing e SEO para melhorar a visibilidade da empresa nos mecanismos de busca e direcionar mais tráfego orgânico. Isso pode envolver a criação de conteúdo relevante, otimização do site e presença ativa nas redes sociais. Analisar os dados de clientes que converteram organicamente pode revelar aspectos da experiência que os tornaram mais propensos a se tornarem fiéis. Identifcar os pontos de contato relevantes, como a jornada do usuário, atendimento ao cliente e facilidade de uso do serviço. Ao aprimorar esses aspectos, é possível melhorar a satisfação e retenção dos clientes.
 
-### <b> Sobre o tempo e dinheiro investido pelo cliente </b>
+### <b> Sobre o total de cancelamentos em relação a cada estado </b>
 
-Observando as tabelas relacionadas ao tempo como cliente e o total de dinheiro gasto, é possível perceber que quanto mais tempo e quanto mais dinheiro gasto, menos clientes cancelam os serviços. Nos primeiros meses e nas menores quantidades de dinheiro investidas, a desistência dos serviços é absurdamente mais alta.
+**Próximos Passos:** Utilizar os dados disponíveis para segmentar os clientes desses estados e criar ofertas personalizadas que atendam às suas necessidades e preferências. Isso pode envolver descontos específicos, benefícios extras ou recursos adicionais que sejam relevantes para esses clientes. Além disso, garanta que as comunicações sejam direcionadas e transmitam valor específico para cada segmento de clientes. 
 
-**Sugestão:** É possível que a primeira experiência dos clientes com os serviços estejam sendo ruins ou, também, que a captação de clientes esteja trazendo clientes desqualificados, sendo necessário mudar as estratégias de marketing. Para entender melhor os motivos, vale a pena enviar uma pesquisa de satisfação sempre que alguém cancelar os serviços. Uma ideia interessante é criar incentivos para o cliente ficar mais tempo e ser fidelizado, como, por exemplo, dar uma promoção para os primeiros meses ou primeiro ano de uso, o que também é uma estratégia usada por grandes empresas.
+### <b> Sobre o cancelamento em cada mês </b>
 
-$\phantom{a}$
+**Aprendizados:** Os últimos meses do ano podem ser uma época de transição ou mudança para muitas pessoas. Pode ser influenciado por fatores sazonais, como as férias, despesas adicionais ou ajustes nos orçamentos pessoais. Compreender esses fatores sazonais pode ajudar a antecipar o aumento do cancelamento de serviços e planejar estratégias específicas para mitigar o impacto.
 
-### <b> Sobre os serviços </b>
+**Próximos Passos:** Uso de programas de fidelidade ou recompensas para incentivar os clientes a permanecerem engajados durante os últimos meses do ano. Oferecer benefícios exclusivos para clientes fiéis, como acesso antecipado a promoções, brindes especiais ou conteúdo exclusivo, pode criar um sentimento de valor adicional e incentivar a renovação da assinatura.
 
-A partir das tabelas relacionadas aos serviços, como "ServicoTelefone", "MultiplasLinhas", "ServicoSegurancaOnline", entre outros, vemos que quanto mais serviços, menores as chances de acontecer o churn. A única exceção é o "ServicoInternet", que está com uma alta taxa de cancelamento.
 
-**Sugestão:** Oferecer planos com múltiplos serviços, o que também é feito por grandes empresas, e pesquisa de satisfação para os usuários do serviço de internet.
-
-$\phantom{a}$
-
-### <b> Sobre o pagamento </b>
-
-Ao observar as tabelas "TipoContrato", "FormaPagamento" e "FaturaDigital" identificar que os clientes com contrato mensal tem muito mais chance de cancelar, o mesmo acontece com quem pagar usando boleto e quem recebe a fatura digitalmente.
-
-**Sugestão:** Aparentemente os métodos em que os clientes lembram recorrentemente de pagar os serviços ou que dão mais trabalho são os que trazem maiores números de Churn Rate. Dessa forma, é necessário deixar os métodos que dão menos trabalho mais atrativos, com promoções ou outras vantagens. É possível, também, ensinar a fazer o pagamento da fatura automaticamente.
 
 
